@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerLens — Resume Reviewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <nav><a class="brand" href="#"><span class="brand-mark">✦</span> CareerLens</a><div class="nav-links"><a class="active" href="#review">Review</a><a href="#how">How it works</a><a href="#tips">Resources</a></div><button class="ghost-btn" id="demoBtn">Load demo</button></nav>
+  <main>
+    <section class="hero"><div><div class="eyebrow">AI-POWERED CAREER COACH</div><h1>Turn your resume into your <em>next opportunity.</em></h1><p class="hero-copy">Get an honest, actionable review in seconds. See what recruiters see, find the gaps, and apply with confidence.</p></div><div class="hero-badge"><span>●</span> 12,480 resumes reviewed<br><small>Join thousands of ambitious candidates</small></div></section>
+    <section id="review" class="workspace"><div class="panel inputs"><div class="panel-head"><div><span class="step">01</span><h2>Share your materials</h2></div><span class="secure">⌁ Private & secure</span></div>
+      <label>Resume <span>Required</span></label><div id="dropzone" class="dropzone"><div class="upload-icon">↑</div><div><strong>Drop your resume here</strong><p>or click to browse · TXT up to 10MB</p></div><input id="fileInput" type="file" accept=".txt" hidden></div><div id="fileName" class="file-name" aria-live="polite"></div>
+      <label for="jobText">Job description <small>Recommended</small></label><textarea id="jobText" class="job" placeholder="Paste the job description to get a tailored match score..."></textarea>
+      <button id="reviewBtn" class="primary-btn">Review my resume <span>→</span></button><p class="fine-print">Your data is processed securely and never shared.</p>
+    </div><div class="panel results" id="results"><div class="empty-state"><div class="sparkle">✦</div><h2>Your review will appear here</h2><p>Upload your resume, add a target role, and get your personalized score.</p><div class="mini-stats"><div><b>ATS</b><small>optimized</small></div><div><b>5 min</b><small>to improve</small></div><div><b>100%</b><small>actionable</small></div></div></div></div></section>
+    <section id="how" class="bottom-info"><div><span class="eyebrow">BUILT FOR BETTER APPLICATIONS</span><h2>Less guessing.<br><em>More interviews.</em></h2></div><div class="features"><div><b>01</b><strong>See your signal</strong><p>Understand your ATS score and what stands out in a 6-second scan.</p></div><div><b>02</b><strong>Close the gaps</strong><p>Get specific suggestions for skills, impact, structure, and clarity.</p></div><div><b>03</b><strong>Apply with confidence</strong><p>Walk into every application knowing your story is doing its job.</p></div></div></section>
+  </main><footer>© 2026 CareerLens <span>Made for the next chapter.</span></footer><script src="/app.js"></script>
+</body></html>
